@@ -1,0 +1,17 @@
+{
+  "name": "wanderers-backend",
+  "version": "1.0.0",
+  "description": "backend for Wanderers",
+  "main": "index.js",
+  "author": "Daria Desiderata",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.3",
+    "express": "^4.15.3",
+    "helmet": "^3.6.1",
+    "knex": "^0.13.0",
+    "nodemon": "^1.11.0",
+    "pg": "^6.2.3"
+  }
+}
