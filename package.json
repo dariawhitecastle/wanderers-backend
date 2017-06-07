@@ -1,6 +1,9 @@
 {
   "name": "wanderers-backend",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node app.js"
+  },
   "description": "backend for Wanderers",
   "main": "index.js",
   "author": "Daria Desiderata",
