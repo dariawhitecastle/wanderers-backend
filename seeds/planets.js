@@ -35,7 +35,7 @@ exports.seed = (knex) => {
           orbit_period: 224,
           low_temp: -283,
           hi_temp: 863,
-          facts: "Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter. Venus is sometimes referred to as the “morning star” and “evening star”. This dates back to ancient civilizations who believed that Venus was in fact two distinct stars appearing in the sky. When the orbit of Venus overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset. Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as “bright queen of the sky”. Billions of years ago, the climate of Venus may been similar to that of Earth and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and the surface of the planet is now too hot and hostile to sustain life. Venus rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis, however Venus, like Uranus, rotates clockwise. This is known as a retrograde rotation and may have been caused by a collision with an asteroid or other object which caused the planet to change its rotational path.",
+          facts: "Venus is the second brightest natural object in the sky. The planet has an apparent magnitude of -3.8 to -4.6, which makes it visible on a bright, clear day. The Moon is the only other natural object that is brighter. Venus is sometimes referred to as the “morning star” and “evening star”. This dates back to ancient civilizations who believed that Venus was in fact two distinct stars appearing in the sky. When the orbit of Venus overtakes Earth’s orbit, it changes from being visible at sunrise to being visible at sunset. Venus is named after the Roman goddess of love and beauty. This may be, in part, due the brightness of the planet and may date back to the Babylonians in 1581 who referred to Venus as “bright queen of the sky”. Billions of years ago, the climate of Venus may been similar to that of Earth and scientists believe that Venus once possessed large amounts of water or oceans. However, due to the high temperatures produce from the extreme greenhouse effect, this water boiled off long ago and the surface of the planet is now too hot and hostile to sustain life. Venus rotate in the opposite direction to other planets. Most other planets rotate counter-clockwise on their axis, however Venus, like Uranus, rotates clockwise.",
           link: "https://theplanets.org/venus/"
         },
         {
@@ -51,7 +51,7 @@ exports.seed = (knex) => {
         },
         {
           id: 5,
-          name: "Luna",
+          name: "Moon",
           num_moons: 0,
           moon_name: "Earth",
           orbit_period: 29,
