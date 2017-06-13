@@ -13,7 +13,7 @@ const app = express()
 app.use('/', express.static(path.join(__dirname, '../Wanderers/public')))
 
 app.use(cors({
-  origin: ['http://localhost:3000', 'https://wanderers-capstone.firebaseapp.com'],
+  origin: ['http://localhost:3000', 'https://wanderers-capstone.firebaseapp.com', 'https://wanderers-interactive.com'],
   credentials: false
 }))
 app.use(helmet())
