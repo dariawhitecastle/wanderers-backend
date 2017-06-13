@@ -169,6 +169,17 @@ exports.seed = (knex) => {
           hi_temp: -360,
           facts: "American astronomer Percival Lowell first caught hints of Pluto's existence in 1905 from odd deviations he observed in the orbits of Neptune and Uranus, suggesting that another world's gravity was tugging at these two planets from beyond. Lowell predicted the mystery planet's location in 1915, but died without finding it. Pluto was finally discovered in 1930 by Clyde Tombaugh at the Lowell Observatory, based on predictions by Lowell and other astronomers. Pluto got its name from an 11-year-old Venetia Burney of Oxford, England, who suggested to her grandfather that the new world get its name from the Roman god of the underworld. Her grandfather then passed the name on to Lowell Observatory. The name also honors Percival Lowell, whose initials are the first two letters of Pluto.",
           link: "http://www.space.com/43-pluto-the-ninth-planet-that-was-a-dwarf.html"
+        },
+        {
+          id: 16,
+          name: "Uranus",
+          num_moons: 27,
+          moon_name: "Oberon, Titania, Miranda, Ariel & Umbriel",
+          orbit_period: 30687,
+          low_temp: -243,
+          hi_temp: 1070,
+          facts: "Like Neptune, Uranus, discovered in 1781, is known as an ice giant, in a slightly different category from Saturn and Jupiter. Both planets boast frigid atmospheres made up of ice rather than gas.Unlike most planets in the solar system, which have their equators pointed in the direction of the sun, Uranus is tipped on its side. The planet faces one pole at a time toward the sun, gradually spinning over the course of its orbit until the other pole receives light instead of darkness. The strange orientation of the planet was likely caused by a collision soon after its formation.",
+          link: "https://www.space.com/18707-uranus-temperature.html"
         }
       ]);
     });
