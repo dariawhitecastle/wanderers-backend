@@ -4,12 +4,14 @@ const bodyParser = require('body-parser')
 const cors = require('cors')
 const helmet = require('helmet')
 const PORT = process.env.PORT || 3000
+var expressStaticGzip = require("express-static-gzip")
 
 // Route files
 const main = require('./routes/main')
 
 const app = express()
 
+app.use("/", expressStaticGzip(__dirname, '../Wanderers/public'))
 app.use('/', express.static(path.join(__dirname, '../Wanderers/public')))
 
 app.use(cors({
